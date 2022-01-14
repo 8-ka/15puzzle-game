@@ -1,0 +1,24 @@
+.app__nav-bar {
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.nav-bar__ul {
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.nav-bar__item {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav-bar__link {
+    text-decoration: none;
+    color: sandybrown;
+    text-transform: uppercase;
+  }

@@ -1,0 +1,12 @@
+.app__header {
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.app__header-h1 {
+    color: sandybrown;
+    font-size: 100px;
+    font-weight: 800;
+}

@@ -1,0 +1,10 @@
+.aboutContainer {
+    border: 2px solid sandybrown;
+    padding: 20px;
+    margin: 30px;
+}
+
+.aboutContainer__p {
+    color: sandybrown;
+    text-align: center;
+}

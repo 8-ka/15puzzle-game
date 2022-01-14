@@ -1,0 +1,10 @@
+.rulesContainer {
+    border: 2px solid sandybrown;
+    padding: 20px;
+    margin: 30px;
+}
+
+.rulesContainer__p {
+    color: sandybrown;
+    text-align: center;
+}

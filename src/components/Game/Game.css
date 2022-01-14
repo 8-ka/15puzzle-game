@@ -1,0 +1,13 @@
+.gameContainer {
+    border: 2px solid sandybrown;
+    margin: 30px;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    cursor: default;
+    touch-action: none;
+}
+

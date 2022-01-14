@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header.jsx';
+import Board from './components/Game/Game.jsx';
+import Nav from './components/Navigation/Nav.jsx';
+import About from './components/About/About.jsx';
+import Rules from './components/Rules/Rules.jsx';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        <Nav />
+        <div className='app-main__container background'>
+          <Routes>
+            <Route path="/Game" element={<Board />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Rules" element={<Rules />} />
+          </Routes>
+        </div>
+
+      </div>
+    </BrowserRouter>
   );
 }
 

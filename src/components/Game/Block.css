@@ -1,0 +1,21 @@
+.gameBlock {
+    border: 2px solid sandybrown;
+    width: 150px;
+    height: 150px;
+    color: sandybrown;
+    font-size: 100px;
+    font-weight: 800;
+    margin: 10px auto;
+    cursor: pointer;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.fillBlock {
+    display: flex;
+}
+
+.emptyBlock {
+    display: none;
+}
